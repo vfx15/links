@@ -1,0 +1,107 @@
+body{
+	background-color: lightblue;
+}
+
+p{
+	text-align: center;
+	font-family: cursive;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+
+.f0{
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.f0:visited{
+	text-color: green;
+}
+
+.f0:active{
+	box-shadow: 0 0 20px yellow;
+}
+
+.f0:hover{
+	text-shadow: 0 0 20px hotpink;
+}
+
+.b0{
+	font-size: 34px;
+	width: 300px;
+	height: 75px;
+	font-family: cursive;
+	font-weight: 700;
+	size: 40%;
+}
+
+.b0:hover{
+	color: yellow;
+	background-color: black;
+	box-shadow: 0 0 40px red;
+}
+
+
+
+/* CSS */
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
